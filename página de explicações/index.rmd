@@ -34,133 +34,124 @@ o trabalho final deverá contemplar:
 
 <br>
 
-- Criação do cenário com a situação-problema:
-    - Exemplo: A loja de produtos geek "GeekStore" deseja otimizar o controle de estoque e vendas para oferecer um melhor atendimento aos seus clientes e aumentar a eficiência operacional.
-
-<br>
-
-- Identificação das funções de negócio do sistema de controle de estoque e vendas de produtos geek:
-    - Exemplo: As funções de negócio incluem cadastro de produtos, cadastro de clientes, registro de vendas, consulta de estoque e controle de acesso ao sistema.
-
-<br>
-
-- Pesquisa e comparação das soluções disponíveis no mercado com a solução proposta:
-    - Exemplo: Será realizada uma pesquisa de sistemas de controle de estoque e vendas no mercado, como o sistema "InventoryPro", para comparar suas funcionalidades com a solução proposta para a GeekStore.
-
-<br>
-
-- Definição dos processos de negócio para cada função identificada:
-    - Exemplo: O processo de negócio para o cadastro de produtos inclui a inserção de informações como nome, categoria, fabricante, quantidade e valor. O processo de negócio para o registro de vendas envolve a seleção de produtos, informações do cliente e geração de um código único para a venda.
-
-<br>
-
-- Identificação das operações que podem ser automatizadas para cada processo:
-    - Exemplo: No processo de cadastro de produtos, a operação de geração automática de código de barras pode ser automatizada para agilizar o processo. No processo de registro de vendas, a operação de cálculo automático do valor total da venda pode ser automatizada.
-
-<br>
-
-- Identificação e elaboração dos casos de uso correspondentes às operações automatizadas:
-    - Exemplo: Um caso de uso seria "Cadastrar Produto", onde o atendente preenche os campos necessários e o sistema gera automaticamente o código de barras.
-
-<br>
-
-- Modelo de casos de uso com descrição do comportamento, fluxos principais, alternativos, de exceção e pré e pós-condições:
-    - Exemplo: O caso de uso "Cadastrar Produto" tem como fluxo principal o preenchimento dos campos, o sistema gera o código de barras e salva as informações no banco de dados. Como exceção, se algum campo obrigatório não for preenchido, exibirá uma mensagem de erro ao usuário.
-
-<br>
-
-- Identificação dos relacionamentos de include, extend e generalização entre os casos de uso:
-    - Exemplo: O caso de uso "Cadastrar Produto" pode incluir o caso de uso "Gerar Código de Barras" e pode estender o caso de uso "Verificar Disponibilidade de Estoque" caso o produto esteja em falta.
-
-<br>
-
-- Descrição dos requisitos não funcionais e requisitos de usabilidade:
-    - Exemplo: Um requisito não funcional pode ser a segurança dos dados, exigindo autenticação para acessar o sistema. Um requisito de usabilidade pode ser uma interface intuitiva e amigável para facilitar a utilização pelos atendentes.
-
-<br>
-
-- Identificação e descrição do contexto de uso, incluindo usuários, tarefas e ambiente:
-    - Exemplo: Os usuários incluem atendentes, supervisores e administradores. As tarefas envolvem cadastro de produtos, registro de vendas e consultas. O ambiente é o sistema desktop da GeekStore, utilizado na loja física.
-
-<br>
-
-- Descrição das regras de negócio
-    - Exemplo: Uma regra de negócio pode ser que produtos com estoque abaixo de um determinado limite não podem ser vendidos.
-
-<br>
-
-- Elaboração do glossário do sistema
-    - Exemplo: Glossário contendo definições de termos utilizados no sistema, como "estoque", "venda", "cliente", entre outros.
-
-<br>
-
-- Elaboração do diagrama de classes de análise (Boundary, Control, Entity)
-    - Exemplo: Diagrama de classes contendo as entidades do sistema (produto, venda, cliente) e suas interações com os componentes de controle e interface.
-
-<br>
-
-- Construção do modelo de dados (MER)
-    - Exemplo: Modelo Entidade-Relacionamento (MER) que representa a estrutura e os relacionamentos das entidades do sistema, como tabelas de produtos, vendas e clientes.
-
-> Prazo do desenvolvimento de 2 semanas
-
-# Divisão do trabalho
-
-Dividiremos as atividades necessárias de forma didática e em tópicos para facilitar o entendimento:
-
 1. [ ] &nbsp; Cenário e Situação Problema:
 
     - Criar um cenário fictício que envolva uma loja de jogos, acessórios e produtos geek.
     - Identificar um problema ou desafio relacionado ao controle de vendas nessa loja.
+        - Exemplo: A loja de produtos geek "GeekStore" deseja otimizar o controle de estoque e vendas para oferecer um melhor atendimento aos seus clientes e aumentar a eficiência operacional.
+
+<br>
 
 2. [ ] &nbsp; Funções de Negócio:
 
     - Identificar as principais funções de negócio do sistema de controle de vendas da loja, como cadastro de produtos, cadastro de clientes, controle de acesso ao sistema, etc.
+        - Exemplo: As funções de negócio incluem cadastro de produtos, cadastro de clientes, registro de vendas, consulta de estoque e controle de acesso ao sistema.
+
+<br>
 
 3. [ ] &nbsp; Pesquisa de Soluções:
 
     - Pesquisar as soluções disponíveis no mercado que atendem às necessidades do sistema proposto.
     - Comparar essas soluções com a solução que está sendo proposta, considerando critérios como funcionalidades, custos, escalabilidade, etc.
+        - Exemplo: Será realizada uma pesquisa de sistemas de controle de estoque e vendas no mercado, como o sistema "InventoryPro", para comparar suas funcionalidades com a solução proposta para a GeekStore.
+
+<br>
 
 4. [ ] &nbsp; Processos de Negócio:
 
     - Para cada função de negócio identificada, definir os processos que devem ser realizados para executar essa função. Por exemplo, o processo de cadastro de produtos, o processo de venda, etc.
+        - Exemplo: O processo de negócio para o cadastro de produtos inclui a inserção de informações como nome, categoria, fabricante, quantidade e valor. O processo de negócio para o registro de vendas envolve a seleção de produtos, informações do cliente e geração de um código único para a venda.
+
+<br>
 
 5. [ ] &nbsp; Automação de Operações:
 
     - Identificar quais operações dos processos de negócio podem ser automatizadas.
     - Essas operações podem incluir o cadastro de produtos e clientes, geração de códigos de venda, controle de pagamentos, etc.
+        - Exemplo: No processo de cadastro de produtos, a operação de geração automática de código de barras pode ser automatizada para agilizar o processo. No processo de registro de vendas, a operação de cálculo automático do valor total da venda pode ser automatizada.
+
+<br>
 
 6. [ ] &nbsp; Casos de Uso:
 
     - Identificar os casos de uso correspondentes às operações que serão automatizadas.
     - Um caso de uso representa uma interação entre um ator (usuário) e o sistema, descrevendo o que o sistema faz em resposta às ações do usuário.
+        - Exemplo: Um caso de uso seria "Cadastrar Produto", onde o atendente preenche os campos necessários e o sistema gera automaticamente o código de barras.
+
+<br>
 
 7. [ ] &nbsp; Modelo de Casos de Uso:
 
     - Elaborar um modelo de casos de uso que inclua todos os casos de uso identificados.
     - Cada caso de uso deve ter uma descrição sucinta do seu comportamento, fluxos principais, fluxos alternativos e de exceção, pré e pós-condições.
+        - Exemplo: O caso de uso "Cadastrar Produto" tem como fluxo principal o preenchimento dos campos, o sistema gera o código de barras e salva as informações no banco de dados. Como exceção, se algum campo obrigatório não for preenchido, exibirá uma mensagem de erro ao usuário.
+
+<br>
 
 8. [ ] &nbsp; Relacionamentos e Requisitos:
 
     - Identificar relacionamentos entre os casos de uso, como includes (inclusões), extends (extensões) e generalizações (heranças).
     - Descrever os requisitos não funcionais do sistema, como desempenho, segurança, usabilidade, etc.
+        - Exemplo: O caso de uso "Cadastrar Produto" pode incluir o caso de uso "Gerar Código de Barras" e pode estender o caso de uso "Verificar Disponibilidade de Estoque" caso o produto esteja em falta.
+
+<br>
 
 9. [ ] &nbsp; Contexto de Uso:
 
     - Identificar e descrever o contexto de uso do sistema, incluindo usuários, tarefas que eles executam e ambiente em que o sistema será utilizado.
+        - Exemplo: Os usuários incluem atendentes, supervisores e administradores. As tarefas envolvem cadastro de produtos, registro de vendas e consultas. O ambiente é o sistema desktop da GeekStore, utilizado na loja física. 
+
+<br>
 
 10. [ ] &nbsp; Regras de Negócio e Glossário:
 
     - Descrever as regras de negócio que são aplicáveis ao sistema.
+        -  Exemplo: Uma regra de negócio pode ser que produtos com estoque abaixo de um determinado limite não podem ser vendidos.
     - Elaborar um glossário que defina os termos e conceitos relevantes para o sistema.
+        - Exemplo: Glossário contendo definições de termos utilizados no sistema, como "estoque", "venda", "cliente", entre outros. 
+
+<br>
 
 11. [ ] &nbsp; Diagrama de Classes de Análise:
 
     - Elaborar um diagrama de classes de análise que represente as entidades (classes), interfaces (fronteiras) e controladores (lógica de negócio) do sistema.
+        - Exemplo: Sistema de vendas. Classes: Produto, Cliente, Venda. Interfaces: Cadastro de Produto, Venda. Controladores: Gerenciador de Produtos, Gerenciador de Vendas.
+
+<br>
 
 12. [ ] &nbsp; Modelo de Dados (MER):
 
     - Construir um Modelo de Entidade e Relacionamento (MER) que represente a estrutura e os relacionamentos das entidades de dados do sistema.
+        - Exemplo: Sistema de vendas. Entidades: Produto, Cliente, Venda. Relacionamentos: Venda realiza Produto, Venda possui Cliente. Atributos: Nome do Produto, Quantidade em Estoque, Nome do Cliente, Data da Venda.
+
+<br>
 
 Essas são as principais atividades e requisitos a serem considerados para a análise do sistema de controle de vendas.
+
+> Prazo do desenvolvimento de 2 semanas
+
+# Considerações finais
+
+Agradeço a disposição de todos neste projeto, espero que façamos história com o mesmo.
+
+- Integrantes:
+  - Pedro José Laurenti de Matos (RA:0621134)
+
+<br>
+
+# Leia aqui
+
+<div align="center">
+
+<img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
+
+<u>[Página feita com R Markdown](https://www.pimvi.orbytesistemas.com)</u>
+<u>[Github com código fonte](https://github.com/Pedro-Laurenti/PIM-VI)</u>
+
+<br>
+
+<img src="https://cdn.worldvectorlogo.com/logos/latex.svg" alt="drawing" width="20%"/>
+
+<u>[Documentação final seguindo ABNT](http://www.pimvi.orbytesistemas.com/PIM-VI.pdf/)</u>
+
+</div>
