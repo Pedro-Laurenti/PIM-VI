@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![](){width=50%}
+![Logo desenvolvida para os meus trabalhos PIM](https://raw.githubusercontent.com/Pedro-Laurenti/PIM-VI/main/img/logo-pim-vi.png)
 
 </div>
 
