@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Logo desenvolvida para os meus trabalhos PIM](https://raw.githubusercontent.com/Pedro-Laurenti/PIM-VI/main/img/logo-pim-vi.png)
+![Logo desenvolvida para os meus trabalhos PIM](./p%C3%A1gina%20de%20explica%C3%A7%C3%B5es/img/PIM-VI-LOGO.png)
 
 </div>
 
@@ -20,7 +20,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-1. [ ] &nbsp; Cenário e Situação Problema:
+1. [x] &nbsp; Cenário e Situação Problema:
 
     - Criar um cenário fictício que envolva uma loja de jogos, acessórios e produtos geek.
     - Identificar um problema ou desafio relacionado ao controle de vendas nessa loja.
@@ -28,14 +28,14 @@ o trabalho final deverá contemplar:
 
 <br>
 
-2. [ ] &nbsp; Funções de Negócio:
+2. [x] &nbsp; Funções de Negócio:
 
     - Identificar as principais funções de negócio do sistema de controle de vendas da loja, como cadastro de produtos, cadastro de clientes, controle de acesso ao sistema, etc.
         - Exemplo: As funções de negócio incluem cadastro de produtos, cadastro de clientes, registro de vendas, consulta de estoque e controle de acesso ao sistema.
 
 <br>
 
-3. [ ] &nbsp; Pesquisa de Soluções:
+3. [x] &nbsp; Pesquisa de Soluções:
 
     - Pesquisar as soluções disponíveis no mercado que atendem às necessidades do sistema proposto.
     - Comparar essas soluções com a solução que está sendo proposta, considerando critérios como funcionalidades, custos, escalabilidade, etc.
