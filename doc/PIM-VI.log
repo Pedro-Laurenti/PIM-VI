@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  23 MAY 2023 01:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  23 MAY 2023 23:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,9 +844,6 @@ l.275
 ] (PIM-VI.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 12.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [23]) [24] [25
 
 
@@ -857,15 +854,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 No file abntex2-modelo-include-comandos.tex.
-<img/geekstore/Artboard 2.png, id=230, 1003.75pt x 303.1325pt>
+<img/geekstore/Artboard 2.png, id=236, 1003.75pt x 303.1325pt>
 File: img/geekstore/Artboard 2.png Graphic file (type png)
 <use img/geekstore/Artboard 2.png>
-Package pdftex.def Info: img/geekstore/Artboard 2.png  used on input line 463.
+Package pdftex.def Info: img/geekstore/Artboard 2.png  used on input line 464.
 (pdftex.def)             Requested size: 273.00278pt x 82.44817pt.
-<img/geekstore/Artboard 1.png, id=232, 1003.75pt x 1003.75pt>
+<img/geekstore/Artboard 1.png, id=238, 1003.75pt x 1003.75pt>
 File: img/geekstore/Artboard 1.png Graphic file (type png)
 <use img/geekstore/Artboard 1.png>
-Package pdftex.def Info: img/geekstore/Artboard 1.png  used on input line 470.
+Package pdftex.def Info: img/geekstore/Artboard 1.png  used on input line 471.
 (pdftex.def)             Requested size: 273.00278pt x 273.0072pt.
 [29
 
@@ -874,7 +871,7 @@ Package pdftex.def Info: img/geekstore/Artboard 1.png  used on input line 470.
 
  <./img/geekstore/Artboard 2.png> <./img/geekstore/Artboard 1.png>] [30]
 
-LaTeX Warning: Float too large for page by 36.97186pt on input line 506.
+LaTeX Warning: Float too large for page by 36.97186pt on input line 507.
 
 [31
 
@@ -882,44 +879,41 @@ LaTeX Warning: Float too large for page by 36.97186pt on input line 506.
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
  [32]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 521.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 522.
  (C:\MikTex\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [33
 
 ] [34] [35] [36
 
-] [37] [38] [39
-
-] [40
+] [37] [38]
+<img/programacao-orientada-objetos-fig.jpg, id=290, 963.6pt x 677.53125pt>
+File: img/programacao-orientada-objetos-fig.jpg Graphic file (type jpg)
+<use img/programacao-orientada-objetos-fig.jpg>
+Package pdftex.def Info: img/programacao-orientada-objetos-fig.jpg  used on input line 604.
+(pdftex.def)             Requested size: 273.00278pt x 191.95085pt.
+ [39 <./img/programacao-orientada-objetos-fig.jpg>] [40
 
 ] [41] [42] [43
 
-] [44
+] [44] [45
 
-] [45] [46
+] [46
+
+] [47] [48] [49
+
+] [50
+
+] [51] [52
 
 ]
 No file PIM-VI.bbl.
-[47] [48
+[53] [54
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 693.
-
-[49
-
-] [50] [51
-
-] [52
-
-] [53] [54
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 721.
+(hyperref)                removing `\uppercase' on input line 784.
 
 [55
 
@@ -929,7 +923,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [59] [60
 
-] (PIM-VI.ind) [61]
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 812.
+
+[61
+
+] [62] [63
+
+] [64
+
+] [65] [66
+
+] (PIM-VI.ind) [67]
 \tf@lof=\write5
 \openout5 = `PIM-VI.lof'.
 
@@ -944,17 +951,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (PIM-VI.aux (abntex2-modelo-include-comandos.aux)) ) 
 Here is how much of TeX's memory you used:
- 17783 strings out of 476339
- 285822 string characters out of 5804534
+ 17858 strings out of 476339
+ 286715 string characters out of 5804534
  1865340 words of memory out of 5000000
- 37639 multiletter control sequences out of 15000+600000
- 594870 words of font info for 156 fonts, out of 8000000 for 9000
+ 37653 multiletter control sequences out of 15000+600000
+ 601188 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,12n,90p,1632b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on PIM-VI.pdf (63 pages, 378912 bytes).
+{C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on PIM-VI.pdf (69 pages, 505530 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 49483 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 53600 words of extra memory for PDF output out of 61914 (max. 10000000)
 
