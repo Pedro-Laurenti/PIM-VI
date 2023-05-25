@@ -57,7 +57,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-4. [ ] &nbsp; Processos de Negócio:
+4. [x] &nbsp; Processos de Negócio:
 
     - Para cada função de negócio identificada, definir os processos que devem ser realizados para executar essa função. Por exemplo, o processo de cadastro de produtos, o processo de venda, etc.
         - Exemplo: O processo de negócio para o cadastro de produtos inclui a inserção de informações como nome, categoria, fabricante, quantidade e valor. O processo de negócio para o registro de vendas envolve a seleção de produtos, informações do cliente e geração de um código único para a venda.
