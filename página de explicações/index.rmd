@@ -95,7 +95,7 @@ o trabalho final deverá contemplar:
         - Exemplo: O caso de uso "Cadastrar Produto" pode incluir o caso de uso "Gerar Código de Barras" e pode estender o caso de uso "Verificar Disponibilidade de Estoque" caso o produto esteja em falta.
 
 <br>
-a
+
 9. [ ] &nbsp; Contexto de Uso:
 
     - Identificar e descrever o contexto de uso do sistema, incluindo usuários, tarefas que eles executam e ambiente em que o sistema será utilizado.
