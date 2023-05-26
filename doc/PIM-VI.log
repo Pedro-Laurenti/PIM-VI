@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  25 MAY 2023 23:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.14)  25 MAY 2023 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,9 +844,6 @@ l.275
 ] (PIM-VI.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 12.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [23]) [24] [25
 
 
@@ -857,15 +854,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 No file abntex2-modelo-include-comandos.tex.
-<img/geekstore/Artboard 2.png, id=252, 1003.75pt x 303.1325pt>
+<img/geekstore/Artboard 2.png, id=274, 1003.75pt x 303.1325pt>
 File: img/geekstore/Artboard 2.png Graphic file (type png)
 <use img/geekstore/Artboard 2.png>
-Package pdftex.def Info: img/geekstore/Artboard 2.png  used on input line 465.
+Package pdftex.def Info: img/geekstore/Artboard 2.png  used on input line 467.
 (pdftex.def)             Requested size: 273.00278pt x 82.44817pt.
-<img/geekstore/Artboard 1.png, id=254, 1003.75pt x 1003.75pt>
+<img/geekstore/Artboard 1.png, id=276, 1003.75pt x 1003.75pt>
 File: img/geekstore/Artboard 1.png Graphic file (type png)
 <use img/geekstore/Artboard 1.png>
-Package pdftex.def Info: img/geekstore/Artboard 1.png  used on input line 472.
+Package pdftex.def Info: img/geekstore/Artboard 1.png  used on input line 474.
 (pdftex.def)             Requested size: 273.00278pt x 273.0072pt.
 [29
 
@@ -874,7 +871,7 @@ Package pdftex.def Info: img/geekstore/Artboard 1.png  used on input line 472.
 
  <./img/geekstore/Artboard 2.png> <./img/geekstore/Artboard 1.png>] [30]
 
-LaTeX Warning: Float too large for page by 36.97186pt on input line 508.
+LaTeX Warning: Float too large for page by 36.97186pt on input line 510.
 
 [31
 
@@ -882,7 +879,7 @@ LaTeX Warning: Float too large for page by 36.97186pt on input line 508.
 Overfull \vbox (5.0pt too high) has occurred while \output is active []
 
  [32]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 523.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 525.
  (C:\MikTex\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [33
@@ -890,10 +887,10 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ] [34] [35] [36
 
 ] [37] [38]
-<img/programacao-orientada-objetos-fig.jpg, id=306, 963.6pt x 677.53125pt>
+<img/programacao-orientada-objetos-fig.jpg, id=328, 963.6pt x 677.53125pt>
 File: img/programacao-orientada-objetos-fig.jpg Graphic file (type jpg)
 <use img/programacao-orientada-objetos-fig.jpg>
-Package pdftex.def Info: img/programacao-orientada-objetos-fig.jpg  used on input line 605.
+Package pdftex.def Info: img/programacao-orientada-objetos-fig.jpg  used on input line 607.
 (pdftex.def)             Requested size: 273.00278pt x 191.95085pt.
  [39 <./img/programacao-orientada-objetos-fig.jpg>] [40
 
@@ -905,27 +902,27 @@ Package epstopdf Info: Source file: <img/fluxograma.eps>
 (epstopdf)                    date: 2023-05-25 22:01:58
 (epstopdf)                    size: 36536 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=img/fluxograma-eps-converted-to.pdf img/fluxograma.eps>
-(epstopdf)             \includegraphics on input line 692.
+(epstopdf)             \includegraphics on input line 694.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./img/fluxograma-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/fluxograma-eps-converted-to.pdf, id=366, 574.145pt x 578.16pt>
+<img/fluxograma-eps-converted-to.pdf, id=388, 574.145pt x 578.16pt>
 File: img/fluxograma-eps-converted-to.pdf Graphic file (type pdf)
 <use img/fluxograma-eps-converted-to.pdf>
-Package pdftex.def Info: img/fluxograma-eps-converted-to.pdf  used on input line 692.
+Package pdftex.def Info: img/fluxograma-eps-converted-to.pdf  used on input line 694.
 (pdftex.def)             Requested size: 455.0pt x 458.1882pt.
 [43
 
  <./img/fluxograma-eps-converted-to.pdf>] [44
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 724--724
+Underfull \hbox (badness 10000) in paragraph at lines 726--726
 []|\T1/lmr/m/n/12 (+20) Automação de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--724
+Underfull \hbox (badness 10000) in paragraph at lines 726--726
 \T1/lmr/m/n/12 (+20) acom-pa-nha-mento
  []
 
@@ -937,47 +934,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 724--724
 
 ] [53] [54] [55
 
-] [56] [57
+] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
+[]|\T1/lmr/m/n/12 (+20) RG-
+ []
 
-] [58
 
-] [59] [60] [61
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
+[]|\T1/lmr/m/n/12 (+20) RG-
+ []
 
-] [62
 
-] [63] [64
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
+[]|\T1/lmr/m/n/12 (+20) RG-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
+[]|\T1/lmr/m/n/12 (+20) RG-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 934--934
+[]|\T1/lmr/m/n/12 (+20) RG-
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 934--934
+\T1/lmr/m/n/12 (+20) na-ti-vas se al-gum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--949
+[]|\T1/lmr/m/n/12 (+20) RFID (Radio-
+ []
+
+[57
 
 ]
-No file PIM-VI.bbl.
-[65] [66
+Underfull \hbox (badness 2435) in paragraph at lines 978--978
+[]|\T1/lmr/m/n/12 (+20) Sistema au-to-ma-ti-
+ []
 
-]
+[58] [59] [60
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 959.
+] [61] [62] [63
 
-[67
+] [64] [65
 
-] [68] [69
+] [66
+
+] [67] [68] [69
 
 ] [70
 
 ] [71] [72
 
 ]
+No file PIM-VI.bbl.
+[73] [74
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 987.
+(hyperref)                removing `\uppercase' on input line 1085.
 
-[73
+[75
 
-] [74] [75
+] [76] [77
 
-] [76
+] [78
 
-] [77] [78
+] [79] [80
 
-] (PIM-VI.ind) [79]
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 1113.
+
+[81
+
+] [82] [83
+
+] [84
+
+] [85] [86
+
+] (PIM-VI.ind) [87]
 \tf@lof=\write5
 \openout5 = `PIM-VI.lof'.
 
@@ -992,17 +1035,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (PIM-VI.aux (abntex2-modelo-include-comandos.aux)) ) 
 Here is how much of TeX's memory you used:
- 17957 strings out of 476339
- 287833 string characters out of 5804534
- 1864340 words of memory out of 5000000
- 37682 multiletter control sequences out of 15000+600000
- 601558 words of font info for 166 fonts, out of 8000000 for 9000
+ 18010 strings out of 476339
+ 288405 string characters out of 5804534
+ 1868340 words of memory out of 5000000
+ 37701 multiletter control sequences out of 15000+600000
+ 601922 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1632b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,90p,1633b,826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{C:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc}<C:/MikTex/fonts/type1/public/lm/lmbx12.pfb><C:/MikTex/fonts/type1/public/lm/lmr10.pfb><C:/MikTex/fonts/type1/public/lm/lmr12.pfb><C:/MikTex/fonts/type1/public/lm/lmr7.pfb><C:/MikTex/fonts/type1/public/lm/lmr8.pfb><C:/MikTex/fonts/type1/public/lm/lmri10.pfb><C:/MikTex/fonts/type1/public/lm/lmri12.pfb><C:/MikTex/fonts/type1/public/lm/lmss10.pfb><C:/MikTex/fonts/type1/public/lm/lmss12.pfb><C:/MikTex/fonts/type1/public/lm/lmss17.pfb><C:/MikTex/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on PIM-VI.pdf (81 pages, 573261 bytes).
+Output written on PIM-VI.pdf (89 pages, 596757 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 237 named destinations out of 1000 (max. 500000)
- 53653 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 913 PDF objects out of 1000 (max. 8388607)
+ 263 named destinations out of 1000 (max. 500000)
+ 53717 words of extra memory for PDF output out of 61914 (max. 10000000)
 

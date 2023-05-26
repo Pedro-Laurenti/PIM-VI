@@ -82,14 +82,14 @@ o trabalho final deverá contemplar:
 
 <br>
 
-9. [ ] &nbsp; Contexto de Uso:
+9. [x] &nbsp; Contexto de Uso:
 
     - Identificar e descrever o contexto de uso do sistema, incluindo usuários, tarefas que eles executam e ambiente em que o sistema será utilizado.
         - Exemplo: Os usuários incluem atendentes, supervisores e administradores. As tarefas envolvem cadastro de produtos, registro de vendas e consultas. O ambiente é o sistema desktop da GeekStore, utilizado na loja física. 
 
 <br>
 
-10. [ ] &nbsp; Regras de Negócio e Glossário:
+10. [x] &nbsp; Regras de Negócio e Glossário:
 
     - Descrever as regras de negócio que são aplicáveis ao sistema.
         -  Exemplo: Uma regra de negócio pode ser que produtos com estoque abaixo de um determinado limite não podem ser vendidos.

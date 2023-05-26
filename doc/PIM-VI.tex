@@ -411,6 +411,8 @@ Trabalho aprovado. \imprimirlocal, 22 de maio de 2023:
 	\item[RN] Requisitos de Negócio
 	\item[ASOO] Análise de Sistemas Orientada a Objetos
 	\item[AP] Automação de Processos
+	\item[RG-N] Regras de negócio
+	\item[RFID] \textit{Radio-Frequency Identification}
 \end{siglas}
 % ---
 
@@ -858,6 +860,130 @@ Esses são os casos de uso correspondentes às automações de processos na loja
 	\item Integração: O sistema deve ser capaz de se integrar a outros sistemas existentes na empresa, como bancos de dados, sistemas de pagamento e sistemas de logística, garantindo a troca de informações de forma eficiente e precisa.
 \end{itemize}
 
+\chapter{Contexto de Uso}\label{contex_de_uso}
+
+O contexto de uso do sistema envolve usuários, tarefas e ambiente em que o sistema será utilizado. Com base nos casos de uso identificados, podemos identificar o seguinte contexto de uso:
+
+\section{Usuários}\label{usuarios_contex_uso}
+
+\begin{enumerate}
+	\item Funcionário responsável pelo controle de estoque: Este usuário utiliza o sistema para registrar a entrada de produtos, ler códigos de barras ou RFID, verificar informações de produtos e conferir o estoque.
+	\item Clientes: Os clientes utilizam o site ou aplicativo para fazer pedidos de produtos, navegar pelos itens disponíveis, acompanhar o status dos pedidos e realizar pagamentos, quando necessário.
+	\item Usuário do sistema (administrador): Este usuário é responsável por configurar o sistema, definir critérios para a geração de relatórios de vendas e acessar os relatórios gerados.
+\end{enumerate}
+
+\section{Tarefas executadas pelos usuários}\label{Tarefas_usuarios_contex_uso}
+
+\begin{enumerate}
+
+	\item Funcionário responsável pelo controle de estoque:
+
+	\begin{itemize}
+		\item Selecionar a opção de registro de entrada de produtos no sistema.
+		\item Realizar a leitura dos códigos de barras ou RFID dos produtos.
+		\item Verificar a validade dos códigos lidos e buscar informações dos produtos associados.
+		\item Registrar a entrada dos produtos no estoque.
+		\item Conferir as informações pertinentes e visualizar a confirmação de registro de entrada de produtos.
+	\end{itemize}
+
+	\item 	Clientes:
+
+	\begin{itemize}
+		\item Acessar o site ou aplicativo de pedidos online.
+		\item Navegar pelos produtos disponíveis e selecionar os itens desejados.
+		\item Registrar o pedido e fornecer as informações necessárias.
+		\item Verificar a disponibilidade dos produtos em estoque.
+		\item Receber a confirmação do pedido e, se necessário, fornecer informações de pagamento.
+		\item Acompanhar o status do pedido em tempo real.
+	\end{itemize}
+
+	\item 	Usuário do sistema (administrador):
+
+	\begin{itemize}
+		\item Selecionar a opção de geração de relatórios de vendas.
+		\item Definir critérios do relatório, como período, produto, cliente, entre outros.
+		\item Buscar os dados relevantes do banco de dados.
+		\item Gerar o relatório com base nos critérios definidos.
+		\item Visualizar o relatório gerado.
+	\end{itemize}
+
+\end{enumerate}
+
+
+\section{Ambiente de uso}\label{ambientes_de_uso}
+
+O sistema é utilizado em um ambiente empresarial, onde as tarefas de controle de estoque, registro de entrada e saída de produtos, gerenciamento de pedidos e geração de relatórios de vendas são realizadas. O sistema pode ser acessado por meio de um computador ou dispositivos móveis, como smartphones ou tablets, tanto pelos funcionários responsáveis pelo controle de estoque quanto pelos clientes que desejam fazer pedidos online. O ambiente deve ser conectado à internet para permitir a comunicação entre o sistema e os dispositivos dos usuários, bem como o acesso aos dados armazenados no banco de dados do sistema.
+
+\chapter{Regras de Negócio e Glossário}\label{regras_de_negocio_e_glossario}
+
+\section{Regras de Negócio}\label{regras_de_negocio}
+
+\begin{quadro}[htb]
+	\centering
+	\caption{\label{quadro_regras_negocio}Regras de Negócio}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{1cm}|p{3.5cm}|p{8.5cm}|}
+		\hline
+		\textbf{Id} & \textbf{Regra de Negócio} & \textbf{Descrição} \\ \hline
+		RG-N01 & Produtos com estoque abaixo de um determinado limite não podem ser vendidos & O sistema deve verificar o saldo de estoque de um produto antes de permitir que ele seja incluído em um pedido. Se o estoque estiver abaixo de um limite predefinido, o sistema deve informar ao cliente que o produto não está disponível para venda. \\ \hline
+		RG-N02 & A validade do código de barras ou RFID lido deve ser verificada & O sistema deve validar o código de barras ou RFID lido pelo funcionário responsável pelo controle de estoque. Caso o código não seja válido, o sistema deve exibir uma mensagem de erro e solicitar uma nova leitura. \\ \hline
+		RG-N03 & O sistema deve buscar as informações do produto associadas ao código lido & Após a leitura do código de barras ou RFID, o sistema deve buscar as informações relevantes do produto no banco de dados, como nome, descrição, preço, etc., para atualizar o registro de entrada de produtos e exibir as informações pertinentes. \\ \hline
+		RG-N04 & O sistema deve calcular e atualizar o saldo de estoque automaticamente & Após a leitura do código de barras ou RFID e a confirmação da validade do código, o sistema deve registrar automaticamente a entrada do produto no estoque, adicionando a quantidade correspondente ao saldo atual. Da mesma forma, quando uma saída de produtos é registrada, o sistema deve subtrair a quantidade de produtos do saldo atual. \\ \hline
+		RG-N05 & O sistema deve fornecer opções alternativas se algum produto estiver indisponível & Se algum produto selecionado pelo cliente não estiver disponível em estoque, o sistema deve informar ao cliente sobre a indisponibilidade e sugerir opções alternativas, se houver, com base nas características dos produtos desejados. \\ \hline
+	\end{tabular}%
+	}
+	\fonte{Autor.}
+\end{quadro}
+
+\section{Glossário}\label{glossario}
+
+\begin{table}[htb]
+	\centering
+	\caption{\label{tab:glossario}Glossário de Termos e Conceitos I}
+	\begin{tabular}{|p{3.5cm}|p{10cm}|}
+		\hline
+		\textbf{Termo} & \textbf{Descrição} \\
+			\hline
+			Código de barras & Um código visual composto por barras e espaços que representa informações sobre um produto, permitindo sua identificação única. \\
+			\hline
+			RFID (Radio-Frequency Identification) & Uma tecnologia de identificação por radiofrequência que utiliza tags eletrônicas para armazenar e recuperar dados remotamente. No contexto do sistema, as tags RFID são utilizadas para identificar produtos. \\
+			\hline
+			Estoque & O conjunto de produtos ou itens mantidos por uma empresa para venda ou uso posterior. O estoque representa a quantidade disponível de cada produto em um determinado momento. \\
+			\hline
+			Sistema de gestão de estoque & Um sistema utilizado para controlar e monitorar o estoque de uma empresa, incluindo atividades como registro de entrada e saída de produtos, atualização de saldo de estoque e geração de relatórios. \\
+			\hline
+			Pedido & Uma solicitação feita por um cliente para adquirir um ou mais produtos específicos. O pedido geralmente inclui informações sobre os produtos selecionados, quantidade desejada e informações de entrega. \\
+			\hline
+			Banco de dados & Um sistema organizado de armazenamento de dados que permite a recuperação, manipulação e análise eficiente das informações. No contexto do sistema, o banco de dados é utilizado para armazenar informações sobre produtos, clientes, pedidos e outras entidades relacionadas. \\
+			\hline
+			Usuário & Uma pessoa que interage com o sistema, executando tarefas e utilizando suas funcionalidades. Os usuários podem incluir funcionários responsáveis pelo controle de estoque, clientes e administradores do sistema. \\
+			\hline
+			Funcionário responsável pelo controle de estoque & Um membro da equipe de uma empresa que é responsável por monitorar e registrar a entrada e saída de produtos, manter o estoque atualizado e realizar tarefas relacionadas ao controle de estoque. \\
+			\hline
+	\end{tabular}
+	\fonte{Autor.}
+\end{table}
+
+\begin{table}[htb]
+	\centering
+	\caption{\label{tab:glossarioII}Glossário de Termos e Conceitos II}
+	\begin{tabular}{|p{3.5cm}|p{10cm}|}
+		\hline
+		\textbf{Termo} & \textbf{Descrição} \\
+			\hline
+			Cliente & Uma pessoa ou organização que faz pedidos de produtos através do site ou aplicativo do sistema. Os clientes podem navegar pelos produtos, selecionar itens, fazer pedidos e acompanhar o status de seus pedidos. \\
+			\hline
+			Relatório de vendas & Um documento que apresenta informações sobre as vendas de produtos em um determinado período de tempo. Os relatórios de vendas fornecem insights sobre o desempenho das vendas, incluindo dados como quantidade vendida, receita gerada, produtos mais vendidos, entre outros. \\
+			\hline
+			Sistema automatizado & Um sistema que realiza tarefas de forma automática, sem intervenção humana direta. No contexto do sistema, são utilizadas automações para registrar a entrada de produtos, atualizar o saldo de estoque, gerar confirmações de pedidos, entre outras funcionalidades. \\
+			\hline
+			Disponibilidade & A condição de um produto estar em estoque e disponível para venda. A disponibilidade é verificada pelo sistema antes de confirmar um pedido, garantindo que o produto esteja disponível em quantidade suficiente. \\
+			\hline
+	\end{tabular}
+	\fonte{Autor.}
+\end{table}
+
+\part{Banco de Dados}
 
 % ----------------------------------------------------------
 % PARTE

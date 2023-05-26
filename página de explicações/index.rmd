@@ -103,7 +103,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-10. [ ] &nbsp; Regras de Negócio e Glossário:
+10. [x] &nbsp; Regras de Negócio e Glossário:
 
     - Descrever as regras de negócio que são aplicáveis ao sistema.
         -  Exemplo: Uma regra de negócio pode ser que produtos com estoque abaixo de um determinado limite não podem ser vendidos.
