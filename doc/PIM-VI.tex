@@ -410,6 +410,7 @@ Trabalho aprovado. \imprimirlocal, 22 de maio de 2023:
 	\item[abnTeX] ABsurdas Normas para TeX
 	\item[RN] Requisitos de Negócio
 	\item[ASOO] Análise de Sistemas Orientada a Objetos
+	\item[AP] Automação de Processos
 \end{siglas}
 % ---
 
@@ -683,6 +684,180 @@ Os processos de negócio de todas as funções identificadas em Funções de Neg
         \item Solucionar possíveis problemas ou reclamações relacionados aos pedidos
     \end{enumerate}
 \end{itemize}
+
+\clearpage % Inicia uma nova página
+
+\begin{figure}[htb] % Ambiente figure com a opção "p"
+	\centering
+	\includegraphics[width=\linewidth]{img/fluxograma.eps}
+	\caption{Fluxograma representando os processos identificados (fonte:o autor)}
+	\label{fig:fluxograma}
+\end{figure}
+
+\chapter{Automação de processos}\label{auto_process}
+
+As automações de processos desempenham um papel fundamental na otimização e eficiência das operações de uma loja geek. Ao implementar essas automações, é possível agilizar tarefas rotineiras, reduzir erros humanos e melhorar a experiência tanto dos funcionários quanto dos clientes.
+
+A primeira automação, a entrada de produtos, é realizada por meio da leitura de códigos de barras ou RFID. Essa tecnologia permite que o registro da entrada de produtos no estoque seja feito de forma rápida e precisa. Ao automatizar esse processo, as informações dos produtos são atualizadas automaticamente no sistema, evitando erros de digitação e agilizando a conferência. Isso resulta em uma gestão de estoque mais eficiente e precisa.
+
+A automação do cálculo de estoque é alcançada por meio do uso de sensores de peso ou contadores automáticos. Esses sensores são integrados ao sistema de gestão, permitindo que o saldo de estoque seja atualizado de forma automática sempre que houver uma entrada ou saída de produtos. Com essa automação, a necessidade de contagens manuais frequentes é reduzida, proporcionando economia de tempo e minimizando erros de contagem.
+
+A automação de pedidos online traz benefícios tanto para os clientes quanto para a loja. Ao implementar um sistema de pedidos online integrado ao estoque e ao sistema de vendas, os clientes têm a comodidade de fazer pedidos por meio de um site ou aplicativo. O sistema automatizado registra o pedido, verifica a disponibilidade dos produtos em estoque e envia uma confirmação para o cliente. Essa automação agiliza o processo de pedidos, reduzindo erros de comunicação e melhorando a satisfação do cliente.
+
+A geração automática de relatórios de vendas é outra automação essencial. Configurando o sistema para gerar relatórios de vendas por período, produto, cliente, entre outros critérios, é possível obter insights sobre o desempenho das vendas de forma mais rápida e eficiente. Esses relatórios podem ser programados para serem gerados em intervalos regulares ou sob demanda, fornecendo informações valiosas para tomada de decisões estratégicas.
+
+Por fim, a automação do acompanhamento de pedidos em tempo real proporciona uma experiência aprimorada tanto para os clientes quanto para a equipe de atendimento. Ao implementar um sistema de rastreamento de pedidos, é possível que os clientes acompanhem o status de seus pedidos desde o processamento até a entrega final. Isso reduz a necessidade de comunicação manual constante, oferece transparência e confiança aos clientes e melhora a eficiência da equipe de atendimento ao cliente.
+
+\begin{quadro}[htb]
+	\centering
+	\caption{\label{quadro_automacao}Automações de processos}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|p{1cm}|p{3.5cm}|p{8.5cm}|}
+		\hline
+		\textbf{Id} & \textbf{Função} & \textbf{Descrição} \\ \hline
+		AP01 & Automação de entrada de produtos & Implementar um sistema de leitura de códigos de barras ou RFID para agilizar o registro da entrada de produtos no estoque. Isso permitiria que as informações dos produtos fossem automaticamente atualizadas no sistema, evitando erros de digitação e agilizando o processo de conferência. \\ \hline
+		AP02 & Automação de cálculo de estoque & Utilizar sensores de peso ou contadores automáticos para monitorar o saldo de estoque. Os sensores podem ser integrados ao sistema de gestão, atualizando automaticamente o saldo de estoque sempre que uma entrada ou saída de produtos for registrada. Isso reduziria a necessidade de contagens manuais frequentes. \\ \hline
+		AP03 & Automação de pedidos online & Implementar um sistema de pedidos online integrado ao estoque e ao sistema de vendas. Os clientes poderiam fazer pedidos através de um site ou aplicativo, e o sistema automatizado registraria o pedido, verificaria a disponibilidade dos produtos em estoque e enviaria uma confirmação para o cliente. Isso agilizaria o processo de pedidos e reduziria erros de comunicação. \\ \hline
+		AP04 & Automação de geração de relatórios de vendas & Configurar o sistema para gerar automaticamente relatórios de vendas por período, produto, cliente, etc. Os relatórios poderiam ser programados para serem gerados em intervalos regulares ou sob demanda, fornecendo insights sobre o desempenho das vendas de forma mais rápida e eficiente. \\ \hline
+		AP05 & Automação de acompanhamento de pedidos & Implementar um sistema de rastreamento de pedidos em tempo real, permitindo que os clientes e a equipe de atendimento ao cliente acompanhem o status dos pedidos desde o processamento até a entrega final. Isso reduziria a necessidade de comunicação manual constante e forneceria uma experiência melhor para os clientes. \\ \hline
+	\end{tabular}%
+	}
+	\fonte{Autor.}
+\end{quadro}
+
+\chapter{Casos de Uso}\label{casos_de_usos}
+
+A seguir, apresento os casos de uso correspondentes às operações que serão automatizadas na loja GeekStore:
+
+\begin{enumerate}
+    \item Caso de uso: Registro automático de entrada de produtos
+    \begin{itemize}
+        \item Ator: Funcionário responsável pelo controle de estoque
+        \item Descrição: O funcionário utiliza o sistema para ler o código de barras ou RFID dos produtos recém-chegados, que são automaticamente registrados no estoque. As informações do produto são atualizadas no sistema, evitando erros de digitação e agilizando o processo de conferência.
+    \end{itemize}
+    
+    \item Caso de uso: Cálculo automático de estoque
+    \begin{itemize}
+        \item Ator: Sistema de gestão de estoque
+        \item Descrição: O sistema utiliza sensores de peso ou contadores automáticos para monitorar o saldo de estoque. Sempre que uma entrada ou saída de produtos é registrada, os sensores atualizam automaticamente o saldo de estoque. Isso reduz a necessidade de contagens manuais frequentes, tornando o processo mais eficiente.
+    \end{itemize}
+    
+    \item Caso de uso: Pedidos online automatizados
+    \begin{itemize}
+        \item Ator: Cliente
+        \item Descrição: Os clientes podem fazer pedidos de produtos através de um site ou aplicativo. O sistema automatizado registra o pedido, verifica a disponibilidade dos produtos em estoque e envia uma confirmação para o cliente. Esse processo agiliza a realização de pedidos e reduz erros de comunicação entre cliente e equipe de vendas.
+    \end{itemize}
+    
+    \item Caso de uso: Geração automática de relatórios de vendas
+    \begin{itemize}
+        \item Ator: Sistema de gestão de vendas
+        \item Descrição: O sistema é configurado para gerar automaticamente relatórios de vendas com base em critérios como período, produto, cliente, entre outros. Os relatórios podem ser programados para serem gerados em intervalos regulares ou sob demanda, fornecendo insights sobre o desempenho das vendas de forma rápida e eficiente.
+    \end{itemize}
+    
+    \item Caso de uso: Acompanhamento automatizado de pedidos
+    \begin{itemize}
+        \item Ator: Cliente e equipe de atendimento ao cliente
+        \item Descrição: O sistema implementa um sistema de rastreamento de pedidos em tempo real, permitindo que os clientes e a equipe de atendimento ao cliente acompanhem o status dos pedidos desde o processamento até a entrega final. Isso reduz a necessidade de comunicação manual constante e proporciona uma experiência melhor para os clientes.
+    \end{itemize}
+\end{enumerate}
+
+Esses são os casos de uso correspondentes às automações de processos na loja geek. Cada caso de uso descreve uma interação específica entre o ator (usuário) e o sistema, detalhando o que o sistema faz em resposta às ações do usuário.
+
+\chapter{Modelo de Casos de Uso}\label{modelo_de_casos_de_uso}
+
+\section*{ Registro Automático de Entrada de Produtos}
+
+\textbf{Descrição:} O funcionário responsável pelo controle de estoque utiliza o sistema para ler o código de barras ou RFID dos produtos recém-chegados, que são automaticamente registrados no estoque. As informações do produto são atualizadas no sistema, evitando erros de digitação e agilizando o processo de conferência.
+
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+  \item O funcionário seleciona a opção de registro de entrada de produtos no sistema.
+  \item O sistema aguarda a leitura do código de barras ou RFID.
+  \item O funcionário faz a leitura do código de barras ou RFID dos produtos.
+  \item O sistema verifica a validade do código lido e busca as informações do produto associado.
+  \item O sistema registra automaticamente a entrada dos produtos no estoque, atualizando as informações pertinentes.
+  \item O sistema exibe uma confirmação de registro de entrada de produtos para o funcionário.
+\end{enumerate}
+
+
+\section*{ Cálculo Automático de Estoque}
+
+\textbf{Descrição:} O sistema de gestão de estoque utiliza sensores de peso ou contadores automáticos para monitorar o saldo de estoque. Sempre que uma entrada ou saída de produtos é registrada, os sensores atualizam automaticamente o saldo de estoque. Isso reduz a necessidade de contagens manuais frequentes, tornando o processo mais eficiente.
+
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+  \item O sistema monitora continuamente os sensores de peso ou contadores automáticos.
+  \item Quando uma entrada de produtos é registrada, o sensor atualiza o saldo de estoque, adicionando a quantidade de produtos ao saldo atual.
+  \item Quando uma saída de produtos é registrada, o sensor atualiza o saldo de estoque, subtraindo a quantidade de produtos do saldo atual.
+\end{enumerate}
+
+
+\section*{ Pedidos Online Automatizados}
+
+\textbf{Descrição:} Os clientes podem fazer pedidos de produtos através de um site ou aplicativo. O sistema automatizado registra o pedido, verifica a disponibilidade dos produtos em estoque e envia uma confirmação para o cliente. Esse processo agiliza a realização de pedidos e reduz erros de comunicação entre cliente e equipe de vendas.
+
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+  \item O cliente acessa o site ou aplicativo de pedidos online.
+  \item O cliente navega pelos produtos disponíveis e seleciona os itens desejados.
+  \item O sistema registra o pedido do cliente, armazenando as informações dos produtos selecionados.
+  \item O sistema verifica a disponibilidade dos produtos em estoque.
+  \item Se os produtos estiverem disponíveis, o sistema gera uma confirmação de pedido e envia ao cliente.
+  \item Se algum produto estiver indisponível, o sistema informa ao cliente e fornece opções alternativas, se disponíveis.
+  \item O cliente confirma o pedido e realiza o pagamento, se necessário.
+\end{enumerate}
+
+
+\section*{ Geração Automática de Relatórios de Vendas}
+
+\textbf{Descrição:} O sistema é configurado para gerar automaticamente relatórios de vendas com base em critérios como período, produto, cliente, entre outros. Os relatórios podem ser programados para serem gerados em intervalos regulares ou sob demanda, fornecendo insights sobre o desempenho das vendas de forma rápida e eficiente.
+
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+  \item O usuário do sistema seleciona a opção de geração de relatórios de vendas.
+  \item O usuário define os critérios do relatório, como período, produto, cliente, entre outros.
+  \item O sistema busca os dados relevantes do banco de dados.
+  \item O sistema gera o relatório com base nos dados selecionados.
+  \item O sistema exibe o relatório para o usuário.
+\end{enumerate}
+
+
+\section*{ Acompanhamento Automatizado de Pedidos}
+
+\textbf{Descrição:} O sistema implementa um sistema de rastreamento de pedidos em tempo real, permitindo que os clientes e a equipe de atendimento ao cliente acompanhem o status dos pedidos desde o processamento até a entrega final. Isso reduz a necessidade de comunicação manual constante e proporciona uma experiência melhor para os clientes.
+
+\textbf{Fluxo Principal:}
+\begin{enumerate}
+  \item O cliente acessa o sistema de rastreamento de pedidos.
+  \item O sistema solicita ao cliente o número do pedido ou informações de identificação.
+  \item O sistema busca as informações do pedido no banco de dados.
+  \item O sistema exibe o status atual do pedido, como processamento, embalagem, transporte, etc.
+  \item O cliente pode acompanhar o progresso do pedido em tempo real.
+\end{enumerate}
+
+\chapter{Relacionamentos e Requisitos Não Funcionais}\label{rel_e_requi_NF}
+
+\section{Relacionamentos entre casos de uso}\label{rel_entre_casos}
+
+\begin{enumerate}
+	\item O caso de uso "Registro Automático de Entrada de Produtos" pode incluir o caso de uso "Cálculo Automático de Estoque", pois a entrada de produtos afeta o cálculo do saldo de estoque.
+	\item O caso de uso "Pedidos Online Automatizados" pode incluir o caso de uso "Registro Automático de Entrada de Produtos", uma vez que o registro de entrada de produtos ocorre quando um pedido é feito e produtos são adicionados ao estoque.
+	\item O caso de uso "Pedidos Online Automatizados" também pode incluir o caso de uso "Acompanhamento Automatizado de Pedidos", pois, após fazer um pedido, os clientes podem acompanhar o status do pedido através do sistema de rastreamento.
+	\item O caso de uso "Geração Automática de Relatórios de Vendas" não apresenta relacionamentos diretos com outros casos de uso neste conjunto.
+\end{enumerate}
+
+\section{Requisitos Não Funcionais }\label{req_n_func}
+
+\begin{itemize}
+	\item Desempenho: O sistema deve ser capaz de lidar com um grande volume de transações, processando-as de forma eficiente e mantendo tempos de resposta rápidos.
+	\item Segurança: O sistema deve garantir a proteção dos dados dos clientes, produtos e transações, implementando medidas de segurança, como criptografia e autenticação adequadas.
+	\item Usabilidade: O sistema deve ser intuitivo e fácil de usar, tanto para os funcionários responsáveis pelo controle de estoque quanto para os clientes que acessam o site ou aplicativo de pedidos online. Deve ser fornecida uma interface amigável e instruções claras para facilitar a interação com o sistema.
+	\item Confiabilidade: O sistema deve ser altamente confiável, garantindo que as transações sejam registradas corretamente, que os dados estejam sempre disponíveis e que não ocorram perdas de informações importantes.
+	\item Escalabilidade: O sistema deve ser capaz de lidar com o crescimento do volume de dados e transações ao longo do tempo, sem comprometer seu desempenho e funcionalidade.
+	\item Manutenibilidade: O sistema deve ser desenvolvido de forma modular e organizada, facilitando a manutenção, atualização e expansão futuras.
+	\item Integração: O sistema deve ser capaz de se integrar a outros sistemas existentes na empresa, como bancos de dados, sistemas de pagamento e sistemas de logística, garantindo a troca de informações de forma eficiente e precisa.
+\end{itemize}
+
 
 % ----------------------------------------------------------
 % PARTE

@@ -64,7 +64,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-5. [ ] &nbsp; Automação de Operações:
+5. [x] &nbsp; Automação de Operações:
 
     - Identificar quais operações dos processos de negócio podem ser automatizadas.
     - Essas operações podem incluir o cadastro de produtos e clientes, geração de códigos de venda, controle de pagamentos, etc.
@@ -72,7 +72,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-6. [ ] &nbsp; Casos de Uso:
+6. [x] &nbsp; Casos de Uso:
 
     - Identificar os casos de uso correspondentes às operações que serão automatizadas.
     - Um caso de uso representa uma interação entre um ator (usuário) e o sistema, descrevendo o que o sistema faz em resposta às ações do usuário.
@@ -80,7 +80,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-7. [ ] &nbsp; Modelo de Casos de Uso:
+7. [x] &nbsp; Modelo de Casos de Uso:
 
     - Elaborar um modelo de casos de uso que inclua todos os casos de uso identificados.
     - Cada caso de uso deve ter uma descrição sucinta do seu comportamento, fluxos principais, fluxos alternativos e de exceção, pré e pós-condições.
@@ -88,7 +88,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-8. [ ] &nbsp; Relacionamentos e Requisitos:
+8. [x] &nbsp; Relacionamentos e Requisitos:
 
     - Identificar relacionamentos entre os casos de uso, como includes (inclusões), extends (extensões) e generalizações (heranças).
     - Descrever os requisitos não funcionais do sistema, como desempenho, segurança, usabilidade, etc.
