@@ -884,6 +884,8 @@ INPUT PIM-VI.toc
 INPUT C:\MikTex\fonts\tfm\public\lm\rm-lmr12.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\lmmi12.tfm
 INPUT C:\MikTex\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr8.tfm
+INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr7.tfm
 OUTPUT abntex2-modelo-include-comandos.aux
 INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmss17.tfm
 INPUT .\img\geekstore\Artboard 2.png
@@ -913,8 +915,6 @@ INPUT .\img\programacao-orientada-objetos-fig.jpg
 INPUT .\img\programacao-orientada-objetos-fig.jpg
 INPUT .\img\programacao-orientada-objetos-fig.jpg
 INPUT .\img\programacao-orientada-objetos-fig.jpg
-INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr8.tfm
-INPUT C:\MikTex\fonts\tfm\public\lm\ec-lmr7.tfm
 INPUT .\img\fluxograma.eps
 INPUT .\img\fluxograma.eps
 INPUT img\fluxograma.eps
