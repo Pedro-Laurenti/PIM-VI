@@ -8,13 +8,13 @@
 
 ## Tema:
 
-> Levantamento e análise de requisitos de um sistema de controle de vendas de uma loja de jogos, acessórios e produtos geek. `<b>`Aparentemente é um trabalho puramente teórico`</b>`.
+> Levantamento e análise de requisitos de um sistema de controle de vendas de uma loja de jogos, acessórios e produtos geek. <b>Aparentemente é um trabalho puramente teórico</b>.
 
-O projeto consiste em uma análise de requisitos para um sistema de controle de vendas de uma loja `<i>`geek`</i>`. A loja atualmente utiliza planilhas em Excel para gerenciar suas vendas, mas deseja um sistema mais eficiente e automatizado. O objetivo é criar um software desktop com módulos de acessibilidade, visando atender a todos os usuários, inclusive aqueles com deficiência. O sistema deve permitir o controle de estoque, gerenciamento de vendas e considerar a raridade e disponibilidade dos produtos. O foco principal é proporcionar um melhor gerenciamento das vendas efetuadas aos clientes.
+O projeto consiste em uma análise de requisitos para um sistema de controle de vendas de uma loja <i>geek</i>. A loja atualmente utiliza planilhas em Excel para gerenciar suas vendas, mas deseja um sistema mais eficiente e automatizado. O objetivo é criar um software desktop com módulos de acessibilidade, visando atender a todos os usuários, inclusive aqueles com deficiência. O sistema deve permitir o controle de estoque, gerenciamento de vendas e considerar a raridade e disponibilidade dos produtos. O foco principal é proporcionar um melhor gerenciamento das vendas efetuadas aos clientes.
 
 ## Escopo:
 
-As disciplinas abordadas nesse PIM VI serão: `<b>` Análise de Sistemas Orientada a Objetos`</b>`, `<b>`Banco de Dados`</b>` e `<b>`Gestão Estratégica de Recursos Humanos`</b>`;
+As disciplinas abordadas nesse PIM VI serão: <b> Análise de Sistemas Orientada a Objetos</b>, <b>Banco de Dados</b> e <b>Gestão Estratégica de Recursos Humanos</b>;
 
 o trabalho final deverá contemplar:
 
