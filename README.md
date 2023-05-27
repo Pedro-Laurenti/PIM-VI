@@ -132,6 +132,7 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
 [Página feita com R Markdown](https://www.pimvi.orbytesistemas.com)
+<br>
 [Github com código fonte](https://github.com/Pedro-Laurenti/PIM-VI)
 
 <br>
