@@ -131,13 +131,13 @@ Agradeço a disposição de todos neste projeto, espero que façamos história c
 
 <img src="https://pkgs.rstudio.com/rmarkdown/reference/figures/logo.png" alt="drawing" width="20%"/>
 
-`<u>`[Página feita com R Markdown](https://www.pimvi.orbytesistemas.com)`</u>`
-`<u>`[Github com código fonte](https://github.com/Pedro-Laurenti/PIM-VI)`</u>`
+[Página feita com R Markdown](https://www.pimvi.orbytesistemas.com)
+[Github com código fonte](https://github.com/Pedro-Laurenti/PIM-VI)
 
 <br>
 
 <img src="https://cdn.worldvectorlogo.com/logos/latex.svg" alt="drawing" width="20%"/>
 
-`<u>`[Documentação final seguindo ABNT](http://www.pimvi.orbytesistemas.com/PIM-VI.pdf/)`</u>`
+[Documentação final seguindo ABNT](https://pimvi.orbytesistemas.com/PIM-VI.pdf)
 
 </div>
