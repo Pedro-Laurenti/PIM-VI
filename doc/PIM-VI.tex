@@ -985,57 +985,65 @@ O sistema é utilizado em um ambiente empresarial, onde as tarefas de controle d
 
 \part{Banco de Dados}
 
-% ----------------------------------------------------------
-% PARTE
-% ----------------------------------------------------------
-\part{Referenciais teóricos}
-% ----------------------------------------------------------
+\chapter{Diagrama de Classes de Análise}\label{diagrama_de_classes_def}
 
-% ---
-% Capitulo de revisão de literatura
-% ---
-\chapter{Lorem ipsum dolor sit amet}
-% ---
+O diagrama de classes de análise é uma representação visual das principais classes e suas interações em um sistema, focando na análise dos requisitos e na estrutura do domínio do problema. Ele é usado para identificar as entidades (classes), interfaces (fronteiras) e controladores (lógica de negócio) do sistema, ajudando a entender como as diferentes partes do sistema se relacionam e interagem entre si.
 
-% ---
-\section{Aliquam vestibulum fringilla lorem}
-% ---
+O objetivo do diagrama de classes de análise é capturar as principais classes conceituais do sistema, seus atributos e relacionamentos, sem se preocupar com detalhes de implementação. Ele fornece uma visão geral das classes envolvidas no sistema e como elas se relacionam, permitindo uma análise mais aprofundada das funcionalidades e requisitos do sistema.
 
-\lipsum[1]
+Ao criar um diagrama de classes de análise, é comum identificar as principais entidades do domínio do problema e suas características relevantes, bem como as interfaces através das quais o sistema interage com usuários externos ou outros sistemas. Os controladores representam a lógica de negócio do sistema, responsável por coordenar as operações e manipular os dados entre as entidades e as interfaces.
 
-\lipsum[2-3]
+Em resumo, o diagrama de classes de análise é uma ferramenta de modelagem que ajuda a visualizar a estrutura conceitual do sistema, permitindo uma compreensão mais clara dos elementos envolvidos e suas relações, auxiliando na análise e no planejamento do sistema antes da implementação.
 
-% ----------------------------------------------------------
-% PARTE
-% ----------------------------------------------------------
-\part{Resultados}
-% ----------------------------------------------------------
+\clearpage
 
-% ---
-% primeiro capitulo de Resultados
-% ---
-\chapter{Lectus lobortis condimentum}
-% ---
+\section{Diagrama de Classes e Dados}\label{diagrama_de_classes}
 
-% ---
-\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia Curae}
-% ---
+\begin{figure}[htb] % Ambiente figure com a opção "p"
+	\centering
+	\includegraphics[width=\linewidth]{img/diagrama-de-classes.eps}
+	\caption{Diagrama de classes do projeto (fonte:o autor)} 
+	\label{fig:diagrama_de_classes}
+\end{figure}
 
-\lipsum[21-22]
+%\footnote{\url{https://www.pimvi.orbytesistemas.com/redirect}}
 
-% ---
-% segundo capitulo de Resultados
-% ---
-\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum
-elementum}
-% ---
+%redireciona para https://mermaid.live/edit#pako:eNrdV0tu2zAQvQrBlZzaQeRfHC0KBElaZFEgaIEuWnVBU4xLVCIdkTKaBDlNFzlA0RP4YqVI_ShRttNFFl2ZGr4h570ZkuNHiHlEYABxjIS4pGiVoiRkAOhvcCUkv8sIeMxNAIwAlYSJAFxLknz9ZoxvAIooppyhNDd7CpIYxCAAG06jEpaShG_IHhCSGYrpw761lpnABQZvf0d0xQMgZErZamDwJTCmQmogE96gGfhTyGqenwmLkKhpbvR3YOw10ZSY2LTZ06AC0woPI4ZJfADQ8DCwLhFtt5mYSL2BFZvF5TyTPEEY8f-EDiZC0CWNaYSiRiUiyx6AJecxQayuI7pBqe3staKNiDgEpmqW3lLsgjU2tYK-SXmk0iA-opQ3ymrdNAclKv9yHKbGrFc4Wi7u0_VCr-q4vdDPJLrp1E13Y9ZOuqWON3AIYYl5gVSJyJR3daw8--XrkNkp2z50W659eEumfonc8jSUcajynqSEYYoSwqQtTcIxJ0YbNUQNcXBK9fLa7K2LQY3s1eZAh6Y8B7pUChm8UyI91dHI0PQGbaL9Kt2QiEbWeTQGtYIetIXSRs-ASkzPzXgItqBqkA6ieqJF0wToDewQLYr5k1ZTaq1bmhlPSNt2lyEmi9uTZcmSpHURke0zb1lHgJhuICjbAvczujeWCEn1fFwiSXZ0FSMguURxJwYcU5VKFcOFGfRdvfld8k-qOLk3tLoqRbABlN3yNEHb5-0fIs6LS4iK1urF-TSonYVb0HhFCu786gln_9Ag84vb57TNRE_8ExX1RGPOZIdMXkPXLFfZrqTc_o4mlrH3vbDD1Ofr9Yv34AALnzpCl14kQTTuFF1v_lz3X7Fp2fqPRm9BCP0QmosmAHk-EGUiBxV9s8EcKYy5AQJ1HHCcqeTloLohzXHGRdvtzi6frKD5vN1E1Xs0T7i9U9UpdMAtoP14WmhTqzvg5SvS8DKlY_uUGxvtlNhmUMqqekcSc7YSwDz_RrgWuEx5H_ioCXYzrRgdhjZMDgyjQlcruxWHQ5gQdTnSSP3R1OUbQvmdJCSEgRpGKP0RwpA9KRxSnp_uGYbBLYoFGcJsrU4cKf6YVtY1Yl84V98yzcwnDB7hTxhM_GN_OllMpyf-eD6dTxanQ3gPg9FkdnI8Hk9OF_PJdHo2PfOfhvBBr-AfLyaz8dnJYjzz_fl85g-hoiV5-qH4Y5z_PP0FCSwMzQ
 
-% ---
-\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
-% ---
+\clearpage
 
-\lipsum[24]
+\section{Classes}
+
+\begin{itemize}
+    \item \texttt{Acessibilidade}: representa os módulos de acessibilidade do sistema. Possui métodos para ativar, desativar e verificar a acessibilidade do sistema, permitindo que usuários com necessidades específicas possam utilizar o sistema de forma adequada.
+    
+    \item \texttt{Automação}: responsável pela automação das vendas. Herda os métodos da classe \texttt{Vendas} e permite realizar e cancelar vendas. Essa classe é utilizada para automatizar o processo de vendas, facilitando a interação com o sistema.
+    
+    \item \texttt{Cadastro}: responsável pelo cadastro de novos produtos. Possui métodos para adicionar, remover e atualizar produtos, bem como buscar produtos por código e listar todos os produtos cadastrados.
+    
+    \item \texttt{Cliente}: representa um cliente do sistema. Possui atributos como nome e email, e está associado a vendas e pedidos.
+    
+    \item \texttt{Estoque}: representa o estoque de produtos da empresa. Possui métodos para adicionar, remover e atualizar itens no estoque, bem como buscar itens por código e listar todos os itens presentes no estoque.
+    
+    \item \texttt{Gerenciamento}: responsável pelo gerenciamento de promoções. Possui métodos para criar, remover e atualizar promoções, bem como buscar promoções por código e listar todas as promoções disponíveis.
+    
+    \item \texttt{GerenciamentoPedidos}: responsável pelo gerenciamento de pedidos. Possui métodos para criar, cancelar, buscar e listar pedidos realizados.
+    
+    \item \texttt{Item}: representa um item de estoque ou venda. Possui atributos como código, nome, quantidade e preço, e é utilizado tanto pelo estoque quanto pelas vendas.
+    
+    \item \texttt{Pedido}: representa um pedido realizado. Possui atributos como código, data, itens e total, e está associado a um cliente e a um ou mais produtos.
+    
+    \item \texttt{Produto}: representa um produto comum. Possui atributos como código, nome, preço, quantidade em estoque e está associado ao estoque e às vendas. Além disso, pode ser relacionado a uma promoção específica.
+    
+    \item \texttt{ProdutoRaro}: representa um produto raro. Possui atributos como código, nome, preço, quantidade em estoque e informações adicionais. Além disso, está associado a promoções específicas.
+    
+    \item \texttt{Promocao}: representa uma promoção. Possui atributos como código, nome, desconto, data de início e data de fim, e está associada a um ou mais produtos.
+    
+    \item \texttt{Vendas}: é responsável pelo gerenciamento das vendas realizadas. Possui métodos para realizar vendas, cancelar vendas, buscar vendas por código e listar todas as vendas efetuadas.
+    
+    \item \texttt{Venda}: representa uma venda realizada. Possui atributos como código, data, itens e total, e está associada a um cliente.
+\end{itemize}
+
 
 % ----------------------------------------------------------
 % Finaliza a parte no bookmark do PDF
@@ -1050,7 +1058,25 @@ elementum}
 \chapter{Conclusão}
 % ---
 
-\lipsum[31-33]
+
+\chapter{Conclusão}
+
+Neste trabalho, foi realizado um estudo aprofundado sobre os requisitos e necessidades de uma loja específica de jogos, acessórios e produtos geek, visando o desenvolvimento de um sistema de controle de vendas personalizado. O objetivo principal foi substituir o uso de planilhas em Excel por uma solução mais eficiente e automatizada, proporcionando uma gestão mais eficaz das vendas e um atendimento personalizado aos clientes.
+
+Durante o desenvolvimento do sistema, foram aplicados conceitos de Análise de Sistemas Orientada a Objetos, Banco de Dados e Gestão Estratégica de Recursos Humanos. Essas disciplinas foram fundamentais para o planejamento, modelagem e implementação do sistema, garantindo a integridade dos dados, a otimização dos processos e a consideração da acessibilidade para usuários com deficiência.
+
+O sistema desenvolvido apresenta funcionalidades abrangentes, incluindo o controle de estoque, gerenciamento de vendas e consideração da raridade e disponibilidade dos produtos. Com a automatização desses processos, espera-se que a loja obtenha melhorias significativas em sua eficiência operacional, reduzindo erros e retrabalho, além de proporcionar uma melhor experiência para os clientes.
+
+Durante o desenvolvimento do projeto, enfrentamos desafios e tomamos decisões importantes para alcançar os objetivos propostos. A colaboração e o trabalho em equipe foram fundamentais para o sucesso do projeto, permitindo a troca de ideias, a identificação de problemas e a busca por soluções eficazes.
+
+A partir deste estudo, é possível afirmar que a implementação do sistema de controle de vendas personalizado trará benefícios significativos para a loja em termos de gestão e atendimento ao cliente. Recomenda-se a realização de testes adicionais e a realização de um treinamento adequado para os funcionários, a fim de garantir uma transição suave para o novo sistema e maximizar seus benefícios.
+
+Por fim, espera-se que este projeto possa servir como base para futuras melhorias e expansões do sistema, atendendo às necessidades em constante evolução da loja e contribuindo para o seu crescimento no mercado.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{Palavras-chave:} análise de requisitos. sistema de controle de vendas. loja geek. software desktop. acessibilidade. estoque. gerenciamento de vendas.
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
@@ -1063,73 +1089,21 @@ elementum}
 % ----------------------------------------------------------
 \bibliography{abntex2-modelo-references}
 
-% ----------------------------------------------------------
-% Glossário
-% ----------------------------------------------------------
-%
-% Consulte o manual da classe abntex2 para orientações sobre o glossário.
-%
-%\glossary
-
-% ----------------------------------------------------------
-% Apêndices
-% ----------------------------------------------------------
-
-% ---
-% Inicia os apêndices
-% ---
-\begin{apendicesenv}
-
-% Imprime uma página indicando o início dos apêndices
-\partapendices
-
-% ----------------------------------------------------------
-\chapter{Quisque libero justo}
-% ----------------------------------------------------------
-
-\lipsum[50]
-
-% ----------------------------------------------------------
-\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-ac pretium ante justo a nulla curabitur tristique arcu eu metus}
-% ----------------------------------------------------------
-\lipsum[55-57]
-
-\end{apendicesenv}
-% ---
-
-
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-% ---
-% Inicia os anexos
-% ---
-\begin{anexosenv}
-
-% Imprime uma página indicando o início dos anexos
-\partanexos
-
-% ---
-\chapter{Morbi ultrices rutrum lorem.}
-% ---
-\lipsum[30]
-
-% ---
-\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
-parturient montes nascetur ridiculus mus}
-% ---
-
-\lipsum[31]
-
-% ---
-\chapter{Fusce facilisis lacinia dui}
-% ---
-
-\lipsum[32]
-
-\end{anexosenv}
+\begin{itemize}
+    \item Alura. (s.d.). POO: Programação Orientada a Objetos, 2023 \\
+	Disponível em: \url{https://www.alura.com.br/artigos/poo-programacao-orientada-aobjetos}
+    \item FERREIRA, J. (s.d.). Aula 4 - Interfaces. Disponível em:\\
+	\url{https://sites.google.com/site/anhangueraniteroipoo/aulas/aula-4---interfaces}
+    \item CODIFICAR. (s.d.). Requisitos Funcionais e Não Funcionais: o que são e como
+	identificá-los. Dísponivel em:\\ \url{https://codificar.com.br/requisitos-funcionais-naofuncionais/}
+	\item DEV MEDIA. Revista Engenharia de Software
+	\url{https://www.devmedia.com.br/introducaoa-engenharia-de-requisitos/8034}
+	\item REDEQUISITOS. Quais os tipos de Requisitos de Software? Sabe a diferença
+	entre eles?. Disponível em:\\
+	\url{http://rederequisitos.com.br/quais-os-tipos-derequisitos-desoftware-sabe-diferenca-entre-eles/}
+	\item REQUISITOS DE SISTEMA:\url{https://codificar.com.br/requisitos-funcionais-naofuncionais/#:~:text=Os%20requisitos%20funcionais%20descrevem%20o,qu}
+	
+\end{itemize}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO

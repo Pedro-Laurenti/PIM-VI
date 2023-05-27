@@ -96,7 +96,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-9. [ ] &nbsp; Contexto de Uso:
+9. [x] &nbsp; Contexto de Uso:
 
     - Identificar e descrever o contexto de uso do sistema, incluindo usuários, tarefas que eles executam e ambiente em que o sistema será utilizado.
         - Exemplo: Os usuários incluem atendentes, supervisores e administradores. As tarefas envolvem cadastro de produtos, registro de vendas e consultas. O ambiente é o sistema desktop da GeekStore, utilizado na loja física. 
@@ -112,14 +112,14 @@ o trabalho final deverá contemplar:
 
 <br>
 
-11. [ ] &nbsp; Diagrama de Classes de Análise:
+11. [x] &nbsp; Diagrama de Classes de Análise:
 
     - Elaborar um diagrama de classes de análise que represente as entidades (classes), interfaces (fronteiras) e controladores (lógica de negócio) do sistema.
         - Exemplo: Sistema de vendas. Classes: Produto, Cliente, Venda. Interfaces: Cadastro de Produto, Venda. Controladores: Gerenciador de Produtos, Gerenciador de Vendas.
 
 <br>
 
-12. [ ] &nbsp; Modelo de Dados (MER):
+12. [x] &nbsp; Modelo de Dados (MER):
 
     - Construir um Modelo de Entidade e Relacionamento (MER) que represente a estrutura e os relacionamentos das entidades de dados do sistema.
         - Exemplo: Sistema de vendas. Entidades: Produto, Cliente, Venda. Relacionamentos: Venda realiza Produto, Venda possui Cliente. Atributos: Nome do Produto, Quantidade em Estoque, Nome do Cliente, Data da Venda.

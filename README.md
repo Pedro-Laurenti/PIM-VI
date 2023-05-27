@@ -89,7 +89,7 @@ o trabalho final deverá contemplar:
 
 <br>
 
-1. [X] &nbsp; Regras de Negócio e Glossário:
+10. [X] &nbsp; Regras de Negócio e Glossário:
 
      - Descrever as regras de negócio que são aplicáveis ao sistema.
        - Exemplo: Uma regra de negócio pode ser que produtos com estoque abaixo de um determinado limite não podem ser vendidos.
@@ -98,14 +98,14 @@ o trabalho final deverá contemplar:
 
 <br>
 
-1. [ ] &nbsp; Diagrama de Classes de Análise:
+11. [x] &nbsp; Diagrama de Classes de Análise:
 
      - Elaborar um diagrama de classes de análise que represente as entidades (classes), interfaces (fronteiras) e controladores (lógica de negócio) do sistema.
        - Exemplo: Sistema de vendas. Classes: Produto, Cliente, Venda. Interfaces: Cadastro de Produto, Venda. Controladores: Gerenciador de Produtos, Gerenciador de Vendas.
 
 <br>
 
-1. [ ] &nbsp; Modelo de Dados (MER):
+12. [x] &nbsp; Modelo de Dados (MER):
 
      - Construir um Modelo de Entidade e Relacionamento (MER) que represente a estrutura e os relacionamentos das entidades de dados do sistema.
        - Exemplo: Sistema de vendas. Entidades: Produto, Cliente, Venda. Relacionamentos: Venda realiza Produto, Venda possui Cliente. Atributos: Nome do Produto, Quantidade em Estoque, Nome do Cliente, Data da Venda.
